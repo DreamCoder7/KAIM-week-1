@@ -12,5 +12,14 @@ def load_data(file_path: str) -> pd.DataFrame:
         pd.DataFrame: _data description_
     """
     data = pd.read_csv(file_path)
-    data["Date"] = pd.to_datetime(data["Date"], errors="coerce")
+    print("Column names in the dataset:", data.columns)  # Debugging
+    # Normalize column names to lowercase
+    data.columns = data.columns.str.strip().str.lower()
+    
+    # Ensure the 'date' column is present and parse it
+    if "date" in data.columns:
+        data["date"] = pd.to_datetime(data["date"], errors="coerce")
+    else:
+        raise KeyError("'date' column not found in the dataset.")
+    
     return data
