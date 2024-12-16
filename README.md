@@ -106,26 +106,6 @@ The project structure is organized into the following directories:
 
 ---
 
-## **Key Performance Indicators (KPIs)**
-
-The performance of the tasks will be measured based on:
-
-1. **Proactivity to Self-learn:**
-   - Ability to explore and learn additional methods or libraries.
-   - Provide references for any new tools or techniques used.
-2. **Sentiment Analysis Accuracy:**
-
-   - Accurate sentiment analysis of news headlines and correct categorization of sentiment scores.
-
-3. **Correlation Strength:**
-
-   - Correctly calculating the correlation between sentiment and stock returns using statistical methods (Pearson correlation).
-
-4. **Completeness of Data Analysis:**
-   - Full analysis of stock movements, news types, and publisher activity with a comprehensive report.
-
----
-
 ## **Requirements**
 
 Ensure that the following Python packages are installed:
