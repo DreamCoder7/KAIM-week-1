@@ -5,3 +5,6 @@ seaborn
 plotly
 scipy
 streamlit
+textblob
+scikit-learn
+nltk
