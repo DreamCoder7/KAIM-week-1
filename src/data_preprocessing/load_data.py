@@ -11,5 +11,5 @@ def load_data(file_path):
     return df
 
 if __name__ == "__main__":
-    df = load_data('path/to/your/stock_data.csv')
+    df = load_data('data/TSLA_historical_data.csv')
     print(df.head())
